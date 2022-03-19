@@ -14,7 +14,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
   });
 
 }
-
+//adding event listeners
 document.addEventListener("keypress", function(event) {
 
   makeSound(event.key);
@@ -23,7 +23,7 @@ document.addEventListener("keypress", function(event) {
 
 });
 
-
+//detecting play conditions 
 function makeSound(key) {
 
   switch (key) {
